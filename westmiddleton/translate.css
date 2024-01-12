@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* hide the top bar */
+
+body {
+	top: 0px !important;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd{  
+	top:-100px !important;
+}
+
+/* hide the powered by */
+
+.goog-logo-link,.goog-te-gadget span{
+
+	display:none !important;
+}
+
+.goog-te-gadget{
+
+	color:transparent!important;
+	font-size :0;
+}
+
+/*position the dropdown */
+
+#google_translate_element {
+	float: right !important;
+	margin: -4px 0px 0px 10px !important;
+}
+
+/* disable tooltips */
+
+#goog-gt-tt, .goog-te-balloon-frame
+{
+display: none !important;
+}
+.goog-text-highlight 
+{ 
+background: none !important;
+box-shadow: none !important;
+}
+
+.translatebar {
+	color: #c9caca !important;
+	font-weight: 500  !important;
+
+}
+
+.translatebar_mobile {
+		color: #c9caca !important;
+	font-weight: 500  !important;
+
+}
+
+.adabar {
+width: calc(100% - 0px)!important;
+height: 60px !important;
+}
+
+.adabar_mobile {
+width: calc(100% - 0px)!important;
+height: 100px !important;
+}
+
+
