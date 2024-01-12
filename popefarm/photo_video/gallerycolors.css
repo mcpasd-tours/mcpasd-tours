@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Photo Styles # School */
+
+
+
+
+.fancybox-caption  {
+    /*background: #c32033;*/  /* this color block is full screen */
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fancybox-caption a:link {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.fancybox-caption a:hover {
+    color: #999999;
+}
+
+
+.fancybox-caption__body {
+    /* background: #87212e;   this color block wraps around the width of the text */
+}
+
+.fancybox-navigation .fancybox-button {
+    background-color: #000000; /* this is the arrow button color */
+     border: solid 2px #ffffff;
+    }
+
+.fancybox-navigation:hover .fancybox-button:hover { /* this is the arrow button hover color */
+    background-color: #999999;
+    }    
+
+ .fancybox-navigation .fancybox-button--arrow_left, .fancybox-navigation .fancybox-button--arrow_right {
+   color: #ffffff;  /* this is the color of the arrow */
+ }   
+
+
+.fancybox-button--arrow_left:focus {
+    outline-offset: 4px !important;
+    outline: 5px auto -webkit-focus-ring-color;
+    background-color: #666666;
+} 
+
+.fancybox-button--arrow_right:focus {
+    outline-offset: 4px !important;
+    outline: 5px auto -webkit-focus-ring-color;
+    background-color: #666666;
+}    
+
+ .inline p {
+
+    line-height: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+ .inline h3 {
+
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.inline {
+    width: 70%;
+    max-height: 90%;
+    border-radius: 10px;
+    background-color: #87212e;
+
+
+}
+   
+
+    
