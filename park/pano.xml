@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node8" apprev="20017" appversion="7.0.8">
+  <panorama id="node8" hideabout="1">
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="-41.99"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/28/23 9:58 AM" nodeid="node8" info="text/entrance.html" altitude="-3048.00" latitude="" source="" longitude="" title="Main Entrance - Exterior" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="-15.84"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/29/23 12:48 AM" nodeid="node10" info="text/steam.html" altitude="-3048.00" latitude="" source="" longitude="" title="STEAM Room" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="100.83"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/29/23 12:57 AM" nodeid="node11" info="text/grade4classroom.html" altitude="-3048.00" latitude="" source="" longitude="" title="4th Grade Classroom" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="132.86"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/29/23 1:08 AM" nodeid="node12" info="text/cafeteria.html" altitude="-3048.00" latitude="" source="" longitude="" title="Cafetorium" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <input leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="133.94"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/29/23 12:46 PM" nodeid="node13" info="text/library.html" altitude="-3048.00" latitude="" source="" longitude="" title="LMC" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <input leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="172.97"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/29/23 1:06 PM" nodeid="node14" info="text/music.html" altitude="-3048.00" latitude="" source="" longitude="" title="Music Room" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <input leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="-169.43"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/29/23 1:15 PM" nodeid="node15" info="text/artroom.html" altitude="-3048.00" latitude="" source="" longitude="" title="Art Room" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <input leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0.05" fov="70" pan="168.11"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/29/23 1:22 PM" nodeid="node16" info="text/gym.html" altitude="-3048.00" latitude="" source="" longitude="" title="Gymnasium" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="-75.14"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/28/23 10:08 AM" nodeid="node9" info="text/playground.html" altitude="-3048.00" latitude="" source="" longitude="" title="Playground" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <panorama id="node17" hideabout="1">
+    <input leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2750" levelbiashidpi="0.400" width="2750" levelingpitch="0" levelbias="0.400" leveltilesize="510" overlap="1">
+      <level width="2750" predecode="0" preload="0" height="2750"/>
+      <level width="1375" predecode="0" preload="0" height="1375"/>
+      <level width="687" predecode="0" preload="0" height="687"/>
+      <level width="343" predecode="1" preload="1" height="343"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="143.01"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1"/>
+    </view>
+    <userdata heading="0" copyright="" author="" comment="" tags="park" datetime="10/29/23 1:39 PM" nodeid="node17" info="text/iceagetrail.html" altitude="-3048.00" latitude="" source="" longitude="" title="Outdoor Recreation Space" description="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" wordwrap="1" height="20" bordercolor="0x000000" textalpha="1" borderradius="1" borderalpha="1" width="180" enabled="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" border="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" zoomfov="20" zoomafterinfov="90" delay="none" softedge="0" type="crossdissolve" enabled="1" blendtime="0.5" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomin="0" zoomoutpause="1"/>
+    <autorotate returntohorizon="0.000" speed="0.050" delay="0.00" useanimation="0" startloaded="0" nodedelay="0.00" enabled="1" horizonfromdefview="0" nodefilter="" noderandom="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" zoomcentercursor="0" sensitivity="8" lockedkeyboard="0" lockedkeyboardzoom="1" invertwheel="0" contextfullscreen="0" hideabout="1" rubberband="0" invertcontrol="1" contextprojections="0" contextvr="1" simulatemass="1" lockedmouse="0">
+      <menulink text="About Circlescapes Virtual Tours" url="http://www.circlescapes.com"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata copyright="photo_video/park.html" author="" comment="connect/connect.html" title="" description="Park Elementary School" tags=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
