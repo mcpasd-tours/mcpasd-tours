@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document - kromrey  */
+
+/* colors 
+mauve 711923
+gray - 7E7E7E
+light gray - e1e1e1
+*/
+
+	
+/* primary color */	
+
+.spintext h3, .connecttext h1, .spintext a, .connecttext a, #socialbuttons h3 {
+	color:  #515151 !important;  /* change this to the right color */
+}
+
+ 
+
+.schoolbar, .buttons, .buttons_pulse, .splash_button, .splash_ada_button:hover, .splash_ada_button:focus  {
+	color:  #ffffff !important;
+	background-color:  #515151 !important; /* change this to the right color */
+}
+
+
+
+/* secondary color */
+
+.closebutton:hover, .closebutton:focus, .buttons:hover, .buttons_pulse:hover, .buttons:focus, .buttons_pulse:focus, .splash_button:hover, .splash_button:focus , .goog-te-gadget-simple:hover  {
+	background-color: #d9d9db !important; /* change this to the right color */
+}
+
+.schoolbar {
+	border-top:  solid 8px #d9d9db !important;  /* change this to the right color */
+
+}
+
+.photolink:hover, .photolink:focus {
+	color:  #d9d9db !important; /* change this to the right color */
+}
+
+
+
+/* other changeable colors */
+
+.photolink {
+	color:  #ffffff !important;
+}
+
+.spintext, .connecttext, .contactbox  {
+	background-color: #ffffff !important; /* change this to the right color */
+}
+
+.spintext p, .connecttext p{
+	
+	color:  #000000 !important;
+}
+
+.spintext a:hover, .connecttext a:hover, .spintext a:focus, .connecttext a:focus  {
+	
+	color:  #000000 !important;  /* change this to the right color */
+}
+
+#welcometext {
+
+	color: #000000 !important; /* change this to the right color */
+}
+
+#welcomename {
+
+	color: #000000 !important; /* change this to the right color */
+
+}
+
+.focusonly:hover {
+	background-color: #bada55; /* change this to the right color */
+}
+
+
+#socialbuttons {
+	background-color: #e1e1e1;	 /*change this to the right color*/
+}
+
+
+
+
+
+
+
+			
+
