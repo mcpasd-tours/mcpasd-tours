@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang='en'>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+	<title>Sunset Ridge Elementary School | 360° Virtual Campus Tour</title>
+	<!-- change viewport for phones	-->
+	<meta id="testViewport" name=viewport content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> 
+	<script>
+		if (screen.width < 768) {
+			var mvp = document.getElementById('testViewport');
+			mvp.setAttribute('content','width=device-width, initial-scale=.8, minimum-scale=.8, maximum-scale=.8');
+		}
+	</script>
+
+	<!-- translate code -->
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'en', 
+				includedLanguages: 'en,sq,ar,zh-CN,fr,gu,ko,pt,pa,ru,si,es,te,uk,vi',
+				layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 
+				'google_translate_element');
+		}
+	</script>
+
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+	<link href="translate.css" rel="stylesheet" type="text/css">
+
+	<!-- end translate -->
+
+	
+	<!-- end change viewport for phones -->	
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="mobile-web-app-capable" content="yes" />
+
+
+	<link href="../styles.css" rel="stylesheet" type="text/css">
+	<link href="colors.css" rel="stylesheet" type="text/css">	
+
+
+	<style type="text/css" title="Default">
+
+
+		body {
+			top: 0px !important; 
+			position: static !important; 
+		}
+
+
+
+		/* fullscreen */
+		html {
+			height:100% !important;
+			width:100% !important;		}
+		body {
+			height:100% !important;
+				margin: 0px !important;
+				overflow:hidden !important; /* disable scrollbars */
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
+		}
+		/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+		::-webkit-scrollbar {
+			background-color: rgba(0,0,0,0.5);
+			width: 0.75em;
+		}
+		::-webkit-scrollbar-thumb {
+			background-color:  rgba(255,255,255,0.5);
+		}
+
+
+
+	</style>
+
+
+
+	<!-- /////////////  BEGIN LIGHTBOX FUNCTIONS A   //////////////////    -->
+
+	<link rel="stylesheet" type="text/css" href="fancybox2/source/jquery.fancybox.css?v=2.0.6" media="screen" />
+	<script src="fancybox2/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="fancybox2/source/jquery.fancybox.js?v=2.0.6"></script>
+	<script type="text/javascript" src="fancybox2/source/helpers/jquery.fancybox-media.js"></script>
+
+	<script type="text/javascript">
+		function LaunchFancybox(url, fbWidth, fbHeight, fbType)
+		{
+			$.fancybox({
+				'width': fbWidth,
+				'height': fbHeight,
+				'autoSize': false,
+				'type': fbType, 
+				'padding': 0,
+				'overlayColor': '#ccc',
+				href: url,
+				iframe : {
+					preload: false
+				},
+
+				helpers : {
+					overlay : {
+						css : {
+                'background' : '#000000', /* change this to the right color */
+
+						}
+					}
+				}
+				
+			});
+		}
+
+	</script>
+
+
+
+	<script type="text/javascript">
+		function LaunchFancybox2(fbType, url, fbWidth)
+		{
+			$.fancybox({
+				'autoSize': true,
+				'width': fbWidth,
+				'height': 'auto',
+				'type': fbType, 
+				'padding': 0,
+				'aspectRatio' : true,
+				'overlayColor': '#ccc',
+				'closeClick': false,
+				beforeShow: function(){
+  // added 50px to avoid scrollbars inside fancybox
+					this.width = ($('.fancybox-iframe').contents().find('html').width())+50;
+					this.height = ($('.fancybox-iframe').contents().find('html').height())+50;
+				},
+				href: url,
+				iframe : {
+					preload: false
+				},
+
+				helpers : {
+					overlay : {
+						css : {
+                'background' : '#000000', /* change this to the right color */
+
+						}
+					}
+				}
+
+			});
+		}
+
+	</script>
+
+
+</head>
+<body>
+	<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+		<script type="text/javascript" src="pano2vr_player.js">
+		</script>
+		<script type="text/javascript" src="skin.js">
+		</script>
+		<link rel="stylesheet" href="styles.css"/>
+		<div id="container" style="
+		position: fixed !important;
+		width:calc(100% + 0px)!important;
+		height:100%;
+		overflow:hidden;
+		border:0px solid #000!important;
+		top: 0!important;
+		right: 0!important;
+		left: 0!important;
+		bottom: 0!important;
+		">
+		<br>Loading...<br><br>
+		</div>
+		<script type="text/javascript">
+		function parseParams(paramsString, params) {
+			paramsString = paramsString.substring(1);
+			var firstSeparatorPos = paramsString.indexOf(",");
+			if (firstSeparatorPos != -1) {
+				params.startNode = paramsString.slice(0, firstSeparatorPos);
+				var viewingParamsString = paramsString.slice(firstSeparatorPos + 1);
+				var viewingParams = viewingParamsString.split(",");
+				if (viewingParams.length >= 3) {
+					var startView = {};
+					startView["pan"] = viewingParams[0];
+					startView["tilt"] = viewingParams[1];
+					startView["fov"] = viewingParams[2];
+					if (viewingParams.length >= 4) {
+						startView["projection"] = viewingParams[3];
+					}
+					params.startView = startView;
+				}
+			} else {
+				params.startNode = paramsString;
+				params.startView = "";
+			}
+		}
+		var params = {};
+		parseParams(document.location.hash, params);
+		var startNode = params.startNode;
+		var startView = params.startView;
+		if (("onhashchange" in window) && (!(/MSIE (\d+\.\d+);/.test(navigator.userAgent)))) {
+			window.onhashchange = function () {
+				parseParams(window.location.hash, params);
+				pano.openNext('{' + params.startNode + '}', params.startView);
+			}
+		} else {
+			var lastHash = window.location.hash;
+			window.setInterval(function () {
+				if (window.location.hash != lastHash) {
+					lastHash = window.location.hash;
+					parseParams(window.location.hash, params);
+					pano.openNext('{' + params.startNode + '}', params.startView);
+				}
+			}, 100);
+		}
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			pano.startNode = startNode;
+			pano.startView = startView;
+			pano.setQueryParameter("ts=52571171")
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			window.addEventListener("load", function() {
+				pano.readConfigUrlAsync("pano.xml?ts=52571171");
+			});
+			if (window.navigator.userAgent.match(/Safari/i)) {
+				// fix for white borders, rotation on iPhone
+				function iosHfix(e) {
+					window.scrollTo(0, 1);
+					var container=document.getElementById("container");
+					var oh=container.offsetHeight;
+					document.documentElement.style.setProperty('height', '100vh');
+					if (oh!=container.offsetHeight) {
+						container.style.setProperty('height',"100%");
+					} else {
+						container.style.setProperty('height',window.innerHeight+"px");
+					}
+					window.scrollTo(0, 0);
+					pano.setViewerSize(container.offsetWidth, container.offsetHeight);
+				};
+				setTimeout(iosHfix,0);
+				setTimeout(iosHfix,100);
+				window.addEventListener("resize", function() {
+					setTimeout(iosHfix,0);
+					// hide toolbar on iPad happens with a delay
+					setTimeout(iosHfix,500);
+					setTimeout(iosHfix,1000);
+					setTimeout(iosHfix,2000);
+				});
+			}
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+			<!-- Hack needed to hide the url bar on iOS 9, iPhone 5s --> 
+			<div style="width:1px;height:1px;"></div>
+
+
+			<main>
+				<div class="hidden">
+					<h1>360° virtual tour of Sunset Ridge Elementary School</h1>
+					<h2>Spin the panoramas to see each location</h2>
+				</div>
+
+			</main>
+
+
+			<!-- /////////////  THE SOCIAL MEDIA LIGHTBOX   //////////////////    -->
+
+			<!-- AddToAny BEGIN -->
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+
+		</body>
+
+
+
+		</html>
