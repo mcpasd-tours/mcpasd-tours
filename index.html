@@ -1,0 +1,205 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<title>MCPSD | 360 Virtual Tours</title>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="mobile-web-app-capable" content="yes" />	
+
+
+<script>
+	
+	$(function(){
+    jQuery('img.png').each(function(){
+        var $img = jQuery(this);
+        var imgID = $img.attr('id');
+        var imgClass = $img.attr('class');
+        var imgURL = $img.attr('src');
+    
+        jQuery.get(imgURL, function(data) {
+            // Get the png tag, ignore the rest
+            var $png = jQuery(data).find('png');
+    
+            // Add replaced image's ID to the new png
+            if(typeof imgID !== 'undefined') {
+                $png = $png.attr('id', imgID);
+            }
+            // Add replaced image's classes to the new png
+            if(typeof imgClass !== 'undefined') {
+                $png = $png.attr('class', imgClass+' replaced-png');
+            }
+    
+            // Remove any invalid XML tags as per http://validator.w3.org
+            $png = $png.removeAttr('xmlns:a');
+            
+            // Check if the viewport is set, else we gonna set it if we can.
+            if(!$png.attr('viewBox') && $png.attr('height') && $png.attr('width')) {
+                $png.attr('viewBox', '0 0 ' + $png.attr('height') + ' ' + $png.attr('width'))
+            }
+    
+            // Replace image with new png
+            $img.replaceWith($png);
+    
+        }, 'xml');
+    
+    });
+});
+
+	
+	</script>
+
+	<link href="styles.css" rel="stylesheet" type="text/css">
+
+
+<style type="text/css">
+	
+	body {
+	background-color: #ffffff;	
+	text-align: center;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+	
+	.container {
+	min-height: 130px;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+}
+.container:after {
+  display: block;
+  content: " invisible node "
+  flex(999 999 auto)
+
+}
+.item {
+  flex: 0 0 auto;
+  margin: 20px;
+  width: 200px;
+		height: auto;
+
+}
+	
+	.logo {
+		
+		display: block;
+    margin: auto;
+	padding: 0px;
+	}
+	
+	a:hover {
+		
+		filter: opacity(.8);
+	}
+
+	figure {
+		font-style: italic;
+		border: thin silver solid;
+		padding:10px;
+	}
+	
+	
+	
+</style>
+</head>
+
+<body>
+<img class="logo" src="districtlogo.png" alt="" width="400px"/>
+<h3>360° Virtual Campus Tours</h3>
+<hr>
+
+<div class="container"> 
+<figure>
+	<a href="4k/index.html" target="_blank"><img class="item" src="4k/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>4K/Early Childhood</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="clarkstreet/index.html" target="_blank"><img class="item" src="clarkstreet/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Clark Street Community School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="elmlawn/index.html" target="_blank"><img class="item" src="elmlawn/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Elm Lawn Elementary School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="glaciercreek/index.html" target="_blank"><img class="item" src="glaciercreek/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Glacier Creek Middle School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="kromrey/index.html" target="_blank"><img class="item" src="kromrey/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Kromrey Middle School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="middleton/index.html" target="_blank"><img class="item" src="middleton/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Middleton High School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="northside/index.html" target="_blank"><img class="item" src="northside/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Northside Elementary School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="park/index.html" target="_blank"><img class="item" src="park/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Park Elementary School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="popefarm/index.html" target="_blank"><img class="item" src="popefarm/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Pope Farm Elementary School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="sauktrail/index.html" target="_blank"><img class="item" src="sauktrail/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Sauk Trail Elementary School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="sunsetridge/index.html" target="_blank"><img class="item" src="sunsetridge/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>Sunset Ridge Elementary School</figcaption>
+</figure>	
+
+
+<figure>
+	<a href="westmiddleton/index.html" target="_blank"><img class="item" src="westmiddleton/logos/logo.png" alt="" width="200px"/></a>
+	<figcaption>West Middleton Elementary School</figcaption>
+</figure>	
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
