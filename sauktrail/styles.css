@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/* CSS Document - 4k  */
+
+/* colors 
+mauve 893b47
+gray - 7E7E7E
+light gray - e1e1e1
+*/
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body, div, h1, h2, h3, span, p {
+			}
+/* fullscreen */
+			
+body {
+	margin-top: 0px !important;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 0px !important;
+    font-family: 'Inter', sans-serif !important; /* change this to the right font */
+	font-weight: 400;
+	background-color: #ffffff;
+}
+
+/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color:  rgba(255,255,255,0.5);
+			}
+			
+		
+/* text descriptions */	
+
+
+
+
+.spintext {
+	padding:  20px 20px 0px 20px;
+}
+
+.connecttext {
+	width: 100% !important;
+	height: 400px !important;
+	margin: 0px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.connecttext h1, .connecttext p {
+	text-align: center !important;
+}
+
+
+.spintext h3, .connecttext h1 {
+	font-size:  24px !important;
+	margin-top:  10px !important;
+	font-family: 'Inter', sans-serif; /* change this to the right font */
+	font-weight: 600 !important;
+}
+
+.spintext p, .connecttext p{
+	
+	font-size: 16px !important;
+	line-height:  24px !important;
+    font-weight: 300 !important;
+}
+
+.spintext a, .connecttext a {
+	
+}
+
+
+
+
+#contactlogo {
+	max-height:170px;
+    max-width:70%;
+    height:auto;
+    width:auto;
+    display: block;
+	margin-left: auto;
+  margin-right: auto;
+  padding-bottom:  0px;
+}
+
+
+/* popups */
+
+.lightbox {
+
+	background-color: rgb(0, 0, 0, 0.9) !important;
+	/*  use https://angel-rs.github.io/css-color-filter-generator/ to find filter for desired HEX   */
+}
+
+.closebutton {
+	background-color: #000000 !important;
+}
+
+
+
+/*  school colors */
+
+
+
+
+
+.schoolbar {
+	font-size:calc(12px + .5vw) !important;
+
+}
+
+
+
+
+
+/* splash items */
+
+.splashsidebar {
+	
+}
+
+
+
+.splash_button {
+	border-radius: 2px !important;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	font-size:18px !important;
+	font-weight: 500 !important;
+
+}
+
+
+#welcometext {
+	font-size:  18px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.84);
+	padding-top:  20px !important;
+
+}
+
+#welcomename {
+	font-size:  28px;
+	line-height: 30px;
+	font-weight:  800;
+	border-bottom:  solid 0px #999999;
+	margin-bottom:  60px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.84);
+
+}
+
+.splashposter {
+	background: url(media/splash_poster.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.focusonly {
+	background-color: #d24e01; /* change this to the right color */
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	outline-offset: 8px;
+}
+
+
+.selectaschool, .adabar, .adabar_mobile {
+	color: #c9caca !important;
+	font-weight: 500  !important;
+	background-color: #2d2d2d !important;
+}
+
+.selectaschool:hover, .selectaschool:focus {
+	color: #ffffff !important;
+	background-color: #666666 !important;
+}
+
+
+
+
+
+/* buttons  */
+
+.buttons {
+
+	border: 0px solid #ffffff !important;
+	border-radius: 2px !important;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.buttons_pulse {
+
+	border: 1px solid #ffffff !important;
+	border-radius: 10px !important;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+.svghover {
+	transition: all .5s ease;
+}
+
+.svghover:hover {
+    transform: scale(1.2);
+    
+}
+
+
+/* social media buttons */
+
+				
+#socialbuttons {
+
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 20px;
+	padding-top: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 320px;
+}
+
+#socialbuttons2 {
+	display: none;
+}
+
+#socialbuttons h3 {
+	font-weight: 600;
+	font-size: 24px;
+    font-family: 'Inter', sans-serif; /* change this to the right font */
+}
+
+#socialbuttons a {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+/*  fancybox background and caption in the slideshows  */
+
+
+
+.fancybox-close:hover {
+
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
+.fancybox-nav span:hover {
+
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
+
+#fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: none;
+	z-index: 8010;
+	background: #000000;
+}
+
+
+/* animation of svg */
+
+.svg:hover { 
+	transform: scale(1.2); 
+	transition: all .2s ease-in-out;
+}
+
+
+.content {
+	color:#777; 
+	width:100%;
+}
+
+/* ADA styles */
+
+#ada-container {
+	width: 80% !important;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 30px 0px 30px 0px !important;
+}
+
+#ada-tourstop {
+	padding: 10px 0px 10px 0px;
+}
+
+#ada-container a {
+	outline-offset: 0px;
+
+}
+
+.hidden {
+	display: none;
+}
+
+
+.thumbfocus:focus {
+	outline-offset: 5px !important;
+	outline: 5px auto -webkit-focus-ring-color;
+}
+/*
+.adabutton:focus, .buttons:focus, .textbutton:focus, .adasvg:focus, .thumbfocus:focus {
+	outline-offset: 5px;
+	outline: 5px auto -webkit-focus-ring-color;
+} */
+
+:focus {
+	outline-offset: 1px;
+	outline: 5px auto -webkit-focus-ring-color;
+}
+
+.adasvg:focus {
+	outline-offset: 1px;
+	outline: 5px auto -webkit-focus-ring-color;
+}
+
+.splash_ada_button {
+	background-color: #c9caca !important;
+	border-radius: 2px;
+	font-size: 13px !important;
+	font-family: 'Inter', sans-serif;
+	letter-spacing: .1px;
+}
+
+
+
+
+
+
+
+			
+
